@@ -136,7 +136,7 @@ from tensorflow.python.framework import ops
 from tf_utils import load_dataset, random_mini_batches, convert_to_one_hot, predict
 ```
 
-本文中的部分辅助函数在 tf_utils.py 中，tf_utils.py 以及 本文用到的数据集和完整代码下载地址：
+本文中的部分辅助函数在 tf_utils.py 中，tf_utils.py 以及本文用到的数据集和完整代码：[下载地址](https://github.com/bubblezhong/DeepLearningNote/tree/master/code/tensorflowBasic)
 
 构建神经网络模型主要步骤如下：
 
@@ -356,6 +356,8 @@ def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.001, num_epochs = 
 parameters = model(X_train, Y_train, X_test, Y_test)
 ```
 
+运行结果如下：
+
 > Cost after epoch 0: 1.842589
 > Cost after epoch 100: 1.180128
 > Cost after epoch 200: 0.807935
@@ -374,47 +376,4 @@ parameters = model(X_train, Y_train, X_test, Y_test)
 > Train Accuracy: 0.999074
 > Test Accuracy: 0.883333
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[完整代码下载](https://github.com/bubblezhong/DeepLearningNote/tree/master/code/tensorflowBasic)
